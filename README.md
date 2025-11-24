@@ -1,6 +1,20 @@
 # Optomechatronic-Principles-Demonstration-Device
 This repo showcases my Bachelor End Project (BEP) in the Control System Technology group of the Mechanical Engineering department at the Eindhoven University of Technology.
-The project is about the design of a device which visually demonstrates the concepts of mechanical sensitivities of optical components. This topic is taught in the Mechanical Engineering Master's course Opto-Mechatronics. The purpose of this device is to supplement the theoretical explanations given during lectures by letting students experience the real-life effects of the sensitivities of optical elements to errors in their position.
+The project is about the design of a device which visually demonstrates the concepts of mechanical sensitivities of optical components, as illustrated in Figure 1.3. This topic is taught in the Mechanical Engineering Master's course Opto-Mechatronics. The purpose of this device is to supplement the theoretical explanations given during lectures by letting students experience the real-life effects of the sensitivities of optical elements to errors in their position.
+
+<img width="813" height="1097" alt="image" src="https://github.com/user-attachments/assets/8f6a29cb-0cbd-4f8e-a173-3f45cd46caef" />
+<br>
+<br>
+
+The design methodology follows the V-model shown in Figure 1.1. On the left side of the V, customer inquiry is framed as requirements and specifications, which are then used to come up with a concept with an initial, basic design. The basic system is then broken down into sub-systems with their own set of requirements and specifications. The design of the subsystems is detailed further and is continuously being validated and iterated at each step of the process to ensure it meets previous requirements and specifications. Once the concept, basic design and detailed design are complete, the product is manufactured as indicated at the bottom of the V. Then, on the right side of the V, the components, subsystems and the integrated system are tested and verified against the design requirements and specifications to ensure compliance. 
+
+<img width="788" height="391" alt="image" src="https://github.com/user-attachments/assets/c7e50008-70d7-4853-8e56-11cba8b4c640" />
+
+[2] J. Gausemeier and S. Moehringer, “New guideline VDI 2206 - A flexible procedure model
+for the design of mechatronic systems,” in Proceedings of the International Conference
+on Engineering Design, ICED, vol. DS 31, 2003.
+<br>
+<br>
 
 The design, conceptually featured in Figure 2.1 below, features a carriage to which the three optical components are mounted. The carriage has two degrees of freedom: translation in X and rotation α about the X axis. These two degrees of freedom are sufficient to demonstrate the component’s sensitivities to lateral displacement and tilt. Mounting all three optical components on the same plane and close together allows the errors in the position of the outgoing beams to be projected onto a screen parallel to the X Y plane. This, in turn, lets the user see the resulting errors side by side and compare the sensitivities of the optical components. To achieve this, Two lasers are mounted to the right of the carriage such that their beams go through a small hole in the screen with a small angle α and β. By mounting the lasers at an angle, the reflected beams will land on the screen rather than back onto the lasers themselves, which is preferred both for user experience and to avoid damaging the lasers.
 
